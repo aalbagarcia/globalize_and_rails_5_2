@@ -1,24 +1,13 @@
-# README
+This repo shows an issue with globalize 5.1.0 and rails 5.2. I'm trying
+to upgrade a project in rails 5.1.4 to the latest and greatest rails version
+and globalize was the firs gem that I had to try.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The globalize gem clearly shows in it's dependencies that it is not
+prepared to run in with activerecord 5.2 or activemodel 5.2 but, well, 
+I had to try...
 
-Things you may want to cover:
+To run the tests:
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- clone the repon
+- run ```bundle install```
+- run ```bin/rails test```
